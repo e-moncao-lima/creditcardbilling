@@ -1,15 +1,13 @@
 import streamlit as st
-from periodic_expenses.periodic_expenses import PeriodicExpense
+# from src.periodic_expenses.periodic_expenses import PeriodicExpense
 
 
+def home() -> None:
+    st.write("teste")
 
-
-
-def home () -> None:
-    pass
 
 def main() -> None:
-    pass
+    st.write("outro test")
 
 
 if __name__ == "__main__":
